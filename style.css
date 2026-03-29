@@ -1,0 +1,116 @@
+/* style.css */
+
+/* 1. Overall App Container */
+.stApp {
+    background-color: #121418;
+    color: #E2E8F0;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* 2. Metallic Silver Header */
+.app-header {
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+.brand-title {
+    font-size: 50px;
+    font-weight: 900;
+    background: -webkit-linear-gradient(#F5F7FA, #B8C6DB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 0px 15px rgba(245, 247, 250, 0.2);
+}
+.brand-tagline {
+    color: #A0AEC0;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+/* 3. The Main Interface Card */
+.main-card {
+    background: #1A1D23;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    margin-bottom: 20px;
+}
+
+/* 4. Textarea Styling */
+div.stTextArea > label {
+    color: #E2E8F0 !important;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+div.stTextArea > div > div > textarea {
+    background-color: #242831 !important;
+    color: #FFFFFF !important;
+    border-radius: 10px !important;
+    border: 1px solid #3F4451 !important;
+    padding: 12px;
+    font-size: 15px;
+    transition: 0.3s;
+}
+div.stTextArea > div > div > textarea:focus {
+    border-color: #00C6FF !important;
+    box-shadow: 0px 0px 10px rgba(0, 198, 255, 0.3) !important;
+}
+
+/* 5. Selectbox & Radio Styling */
+div.stSelectbox > label, div.stRadio > label {
+    color: #E2E8F0 !important;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+div.stSelectbox > div > div > div {
+    background-color: #242831 !important;
+    border-radius: 10px !important;
+    border: 1px solid #3F4451 !important;
+    color: #FFFFFF !important;
+}
+
+/* 6. Generate Button Styling */
+div.stButton > button {
+    width: 100%;
+    margin-top: 15px;
+    background: linear-gradient(135deg, #00C6FF 0%, #0072FF 100%);
+    color: #FFFFFF !important;
+    border-radius: 12px;
+    border: none;
+    padding: 14px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    box-shadow: 0px 4px 15px rgba(0, 198, 255, 0.2);
+    transition: all 0.3s ease;
+}
+div.stButton > button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 20px rgba(0, 198, 255, 0.4);
+}
+div.stButton > button:active {
+    transform: translateY(1px);
+}
+
+/* 7. Audio Player & Alerts */
+.stAudio {
+    margin-top: 15px;
+    background-color: #242831;
+    border-radius: 10px;
+    padding: 5px;
+}
+.stSpinner > div {
+    border-color: #0072FF !important;
+}
+.stAlert {
+    border-radius: 10px !important;
+    padding: 10px !important;
+}
+
+/* 8. HIDE STREAMLIT DEFAULT UI */
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+[data-testid="stToolbar"] {visibility: hidden !important;}
