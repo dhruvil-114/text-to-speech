@@ -13,7 +13,7 @@ No complicated terminal commands needed! Just follow these 4 simple steps to get
 
 1. 📥 **Download the Project:** Click the button below to directly download the project files:  
    <br>
-   [![Download ZIP](https://img.shields.io/badge/📥_Download_Project-ZIP-2ea44f?style=for-the-badge)](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/archive/refs/heads/main.zip)
+   [![Download ZIP](https://img.shields.io/badge/📥_Download_Project-ZIP-2ea44f?style=for-the-badge)](https://github.com/dhruvil-114/text-to-speech/archive/refs/heads/main.zip)
    <br><br>
 
 2. 📂 **Extract the Files:** Locate the downloaded `.zip` file, right-click on it, and select **Extract All...** to unzip the contents into a new folder.
